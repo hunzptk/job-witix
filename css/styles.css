@@ -1,0 +1,316 @@
+header {
+  background-color: #fff;
+}
+
+.header-nav{
+  display: inline-flex;
+  margin-left: 2rem;
+}
+
+.navbar {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.logo {
+  max-width: 60px;
+  max-height: 75px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.btn-entry {
+  text-decoration: none;
+  color: black;
+  background-color: transparent;
+}
+
+.btn-primary {
+  background-color: var(--custom-orange) !important;
+  border-color: var(--custom-orange) !important;
+}
+
+.header-link {
+  color: black;
+  padding: 20px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.header-link:hover {
+  color: var(--custom-orange);
+}
+
+.icons {
+  width: 30px;
+}
+
+.cart {
+  position: relative;
+}
+
+.cart .contagem-cart {
+  position:absolute;
+  top: 0;
+  right: 0;
+  background-color: var(--custom-orange);
+  width: 15px;
+  height: 15px;
+  font-size: 10px;
+  font-weight: bold;
+  color: #fff;
+  line-height: 15px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.main-content {
+  background-color: var(--light-gray);
+  padding: 5rem 10rem;
+}
+
+.img-main {
+  background-image: url(../img/olhando-para-a-tela.jpg);
+  background-size: 100%;
+  position: relative;
+  height: 450px;
+  object-fit: cover;
+  background-position: center;
+  background-position-y: -10rem;
+  border-radius: 0.5rem;
+  filter: brightness(80%);
+}
+
+.img-grad {
+  position: absolute;
+  background-image: linear-gradient(to top, black 0%, transparent 20%);
+  top: 17.8%;
+  width: 81.2%;
+  border-radius: 0.5rem;
+  height: 450px;
+}
+
+.img-logo {
+  position: absolute;
+  top: 25%;
+  right: 12%;
+  width: 5rem;
+}
+
+.text-ab-img {
+  position: absolute;
+  bottom: 38%;
+  left: 12%;
+  color: #fff;
+}
+
+.title-img {
+  font-size: 3.5rem;
+}
+
+.main-menu {
+  display: flex;
+  border-bottom: 1px solid var(--medium-gray);
+  padding-left: 0px;
+  padding-bottom: 0.8rem;
+  margin-top: 2rem;
+}
+
+.main-link {
+  color: black;
+  margin-right: 1.8rem;
+  justify-content: left;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.main-link.active {
+  border-bottom: 3px solid var(--custom-orange);
+  padding-bottom: .8rem;
+}
+
+.title {
+  font-size: 1.5rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  font-size: 1rem;
+}
+
+.img-cursos {
+  max-width: 250px;
+  max-height: 200px;
+  border-radius: .5rem;
+  margin-bottom: 1rem;
+}
+
+.card-curso p {
+  font-weight: 600;
+}
+
+.link-curso {
+  color: black;
+}
+
+.link-curso:hover {
+  color: black;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.card-curso .duracao {
+  font-weight: 200;
+  font-size: 12px;
+}
+.card-curso .duracao strong{
+  font-weight: bold;
+}
+
+.card-curso .titleValor {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.card-curso .text-valor {
+  font-size: 10px;
+}
+
+.card-curso .vcolor {
+  color: var(--custom-orange)
+}
+
+.card-curso .vcolor strong {
+  font-size: 10px;
+}
+
+.btn-text-reload {
+  font-weight: bold;
+  margin-right: 1rem;
+}
+
+.card {
+  padding: 2rem 3rem;
+  margin: 0 auto;
+  height: 30rem !important;
+}
+
+.img-alunos {
+  width: 50% !important;
+  border-radius: 50% !important;
+  display: block;
+  margin: 0 auto;
+}
+
+.opinioes {
+  background-color: var(--medium-gray);
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 3rem 2rem 3rem;
+}
+
+.cards-op {
+  padding: 2rem 8rem;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  width: 8% !important;
+}
+
+.carousel-indicators li {
+  height: 15px !important;
+  width: 15px !important;
+  border-radius: 50%;
+  top: 2rem;
+}
+
+.newsletter {
+  background-color: var(--light-gray);
+  height: 35rem;
+  padding-top: 5rem;
+  padding-bottom: 4rem;
+}
+
+.img-news {
+  background-image: url(../img/olhando-para-a-tela2.jpg);
+  background-size: 100%;
+  position: relative;
+  height: 400px;
+  object-fit: cover;
+  background-position-y: -15rem;
+  filter: brightness(50%);
+}
+
+.newsletter-email {
+  position: relative;
+  text-align: center;
+  color: #fff;
+  bottom: 17rem;
+}
+
+.newsletter .newsletter-email .form {
+  margin: 0 auto;
+  justify-content: center;
+  width: 30rem;
+  }
+
+.btn-lg {
+  width: 10rem;
+  height: 2.5rem;
+  font-size: 18px !important;
+  padding: 0 !important;
+}
+
+.bg-footer {
+  background-color: var(--dark-gray);
+  display: grid;
+  padding: 3rem 4rem;
+  grid-template-columns: 1fr 2fr 1fr;
+  align-items: flex-end;
+}
+
+.icon-footer {
+  margin-left: -9px;
+  font-size: 30px;
+}
+
+.w-footer {
+  font-size: 15px;
+  margin-bottom: 1rem;
+}
+
+.icone-media {
+  text-align: right;
+}
+
+.socialm {
+  max-width: 40px;
+}
+
+footer .bg-footer .info-footer .iconify {
+  font-size: 15px;
+}
+
+footer .bg-footer .copyr {
+  font-size: 15px;
+  text-align: center;
+}
+
+footer .bg-footer .ic-smedia .siga-footer {
+  margin-left: auto;
+  margin-bottom: 3.5rem;
+  text-align: left;
+}
+
+footer .siga {
+  font-size: 15px;
+  margin-right: 25px;
+  text-align: right;
+  margin-right: 3.5rem;
+}
